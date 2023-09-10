@@ -73,6 +73,8 @@ const Modal: React.FC<ModalProps> = ({
                     justify-center
                     items-center
                     flex
+                    xl:items-start
+                    2xl:items-center
                     overflow-x-hidden
                     overflow-y-auto
                     fixed
@@ -121,6 +123,8 @@ const Modal: React.FC<ModalProps> = ({
                                 bg-white
                                 outline-none
                                 focus:outline-none
+                                xl:my-10
+                                2xl:my-0
                             "
                         >
                             {/* HEADER */}
