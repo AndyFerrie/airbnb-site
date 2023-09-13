@@ -44,7 +44,7 @@ export const categories = [
       {
         label: 'Pools',
         icon: TbPool,
-        description: 'This is property has a beautiful pool!'
+        description: 'This property has a beautiful pool!'
       },
       {
         label: 'Islands',
@@ -79,7 +79,7 @@ export const categories = [
       {
         label: 'Arctic',
         icon: BsSnow,
-        description: 'This property is in arctic environment!'
+        description: 'This property is in an arctic environment!'
       },
       {
         label: 'Desert',
@@ -94,7 +94,7 @@ export const categories = [
       {
         label: 'Lux',
         icon: IoDiamond,
-        description: 'This property is brand new and luxurious!'
+        description: 'This property is luxurious!'
       }
 ]
 
