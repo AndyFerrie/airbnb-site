@@ -11,6 +11,7 @@ import RentModal from './components/modals/RentModal';
 
 import ToasterProvider from './providers/ToasterProvider';
 import getCurrentUser from './actions/getCurrentUser';
+import SearchModal from './components/modals/SearchModal';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -36,6 +37,7 @@ export default async function RootLayout({
         <ClientOnly>
           <ToasterProvider />
           <RentModal />
+          <SearchModal />
           <LoginModal />
           <RegisterModal />
           <Navbar currentUser={currentUser} />
